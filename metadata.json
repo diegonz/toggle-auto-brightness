@@ -3,8 +3,6 @@
   "description": "Toggles auto brightness control on GNOME",
   "uuid": "toggle-auto-brightness@diegonz",
   "shell-version": [
-    "3.24",
-    "3.26",
     "3.28",
     "3.30",
     "3.30.2",
