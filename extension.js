@@ -17,9 +17,6 @@ class Extension {
         this.Name = 'ToggleAutoBrightness.Extension';
     }
 
-    _showMessage(message) {
-    }
-
     _onButtonClicked() {
         if (Gio.Settings.list_schemas().indexOf(SCHEMA) == -1) {
             throw _("Schema \"%s\" not found.").format(SCHEMA);
